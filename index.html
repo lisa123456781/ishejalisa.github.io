@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</body>
+</html>
+
+<!Doctype html>
+<html lang="en">
+<head>
+	<a href=""></a>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audrey|Porftfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/0d9180b09b.js" crossorigin="anonymous"></script>
+</head>
+</body>
+<div id="header">
+	<div class="container">
+		<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+					<i class="" onclick="closemenu()"></i>
+				</ul>
+				<i class="" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<p>A DESIGNER</p>
+				<h1>Hi, I'm <span>ISHEJA Lisa Audrey</span><br> From Rwanda</h1>
+		</div>
+	</div>
+</div>
+<!-----------about --------->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="D:/liza/Liza.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>Hi,My name is ISHEJA Liza Audrey,I'm 12years old girl,I live in Kigali-Rwanda.
+					I am an artist. I can draw everything for low price, 
+
+
+</p>
+
+
+</div>
+<div class="tab-contents active-tab" id="skills">
+	<ul>
+		
+	</ul>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- ------services------------- -->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class=""></i>
+				<h2></h2>
+				<img src="D:/liza/picture e.jpg">
+				<p></p>
+			</div>
+			<div>
+				<i class=""></i>
+				<h2></h2>
+				<img src="D:/liza/picture b.jpg">
+				<p></p>
+				<a href="#"></a>
+			</div>
+			<div>
+				<i class=""></i>
+				<h2></h2>
+				<img src="D:/liza/picture c.jpg">
+				<p></p>
+				<a href="#"></a>
+			</div>
+		</div>
+		</p>
+						
+				</div>
+				</div>
+	</div>
+</div>
+</div>
+<!-- contact---------- -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fas fa-paper-plane"></i>hirwadarling@gmail.com</p>
+				<p><i class="fas fa-phone-square-alt"></i> 0730564056</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/100077637957529/posts/601009798387553/?substory_index=601009798387553&app=fbl"><i class="facebook"></i></a>
+			</div>
+			<a href="D:/Login form/index.html" download class="btn btn2">THANK YOU!</a>
+				<div class="contact-right">
+												<button type="submit" class="btn btn2">FOLLOW ME</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>copyright @hirwadarling. Made by <i class="fa-solid fa-heart"></i> Hirwa</p>
+		</div>
+	</div>
+
+<script>
+	
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		console.log("tabname>>> ", tabname);
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab")
+		}
+</script>
+
+<script>
+
+	var sidemeu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemeu.style.right = "0"
+	}
+	function closemenu(){
+		sidemeu.style.right = "200px"
+	}
+
+	</script>
+
+
+</body>
+</html>
